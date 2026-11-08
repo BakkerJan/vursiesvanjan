@@ -1,0 +1,84 @@
+---
+import Basis from '../layouts/Basis.astro';
+import { opTitel } from '../lib/vursies.js';
+
+/** De drie onderdelen van een vursien, elk met een eigen directe link. */
+function merkjes(lied) {
+  return [
+    { naam: 'Tekst',     aan: lied.heeftTekst, href: `${lied.url}#tekst` },
+    { naam: 'Video',     aan: lied.heeftVideo, href: `${lied.url}#opname` },
+    { naam: 'Akkoorden', aan: lied.heeftPdf,   href: `/pdf/${lied.pdf}` },
+  ];
+}
+---
+
+<Basis omschrijving="Vursies: liedjes in het Urker dialect, geschreven, vertaald en hertaald door Jan Bakker.">
+  <h1>Vursies van Jan</h1>
+
+  <p class="inleiding">
+    Liedjes in het Urker dialect — zelf geschreven, vertaald of hertaald.
+    Bij elk vursien staat de tekst, en waar ze er al zijn ook de opname en
+    de akkoorden.
+  </p>
+
+  <div class="zoek">
+    <label class="visueel-verborgen" for="zoekveld">Zoek in de vursies</label>
+    <input
+      type="search"
+      id="zoekveld"
+      placeholder="Zoek op titel of op een woord uit de tekst…"
+      autocomplete="off"
+    />
+  </div>
+
+  <ul class="lijst" id="liedjeslijst">
+    {opTitel.map((lied) => (
+      <li data-zoek={`${lied.titel} ${lied.origineel} ${lied.schrijver} ${lied.melodie} ${lied.zoektekst}`}>
+        <div class="rij">
+          <a class="rij__titel" href={lied.url}>
+            <span class="lijst__titel">{lied.titel}</span>
+            {lied.origineel && <span class="lijst__bij">naar “{lied.origineel}”</span>}
+          </a>
+
+          <span class="merkjes">
+            {merkjes(lied).map((m) => (
+              m.aan ? (
+                <a class="merk merk--aan" href={m.href}>{m.naam}</a>
+              ) : (
+                <span class="merk merk--uit" title={`${m.naam} nog niet beschikbaar`}>
+                  {m.naam}
+                </span>
+              )
+            ))}
+          </span>
+        </div>
+      </li>
+    ))}
+  </ul>
+
+  <p class="leeg" id="geenresultaat" hidden>Niets gevonden.</p>
+</Basis>
+
+<script>
+  import { normaliseer } from '../lib/zoeken.js';
+
+  const veld = document.getElementById('zoekveld');
+  const regels = Array.from(document.querySelectorAll('#liedjeslijst li'));
+  const melding = document.getElementById('geenresultaat');
+
+  // Eén keer vooraf normaliseren in plaats van bij elke toetsaanslag.
+  const index = regels.map((r) => normaliseer(r.dataset.zoek ?? ''));
+
+  veld?.addEventListener('input', () => {
+    const term = normaliseer(veld.value.trim());
+    let zichtbaar = 0;
+
+    regels.forEach((regel, i) => {
+      const past = term === '' || index[i].includes(term);
+      regel.hidden = !past;
+      if (past) zichtbaar++;
+    });
+
+    if (melding) melding.hidden = zichtbaar !== 0;
+  });
+</script>

@@ -1,0 +1,63 @@
+---
+import '../styles/global.css';
+
+const { titel, omschrijving, pad } = Astro.props;
+
+const siteNaam = 'Vursies van Jan';
+const paginaTitel = titel ? `${titel} — ${siteNaam}` : siteNaam;
+const huidigPad = pad ?? Astro.url.pathname;
+
+const menu = [
+  { naam: 'Vursies', href: '/' },
+  { naam: 'Over Jan Bakker', href: '/over-jan-bakker/' },
+];
+
+// De voorpagina alleen markeren als je er ook echt op staat; anders zou
+// "/" bij elk pad aanslaan.
+const actief = (href) =>
+  href === '/' ? huidigPad === '/' : huidigPad.startsWith(href);
+---
+
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{paginaTitel}</title>
+    {omschrijving && <meta name="description" content={omschrijving} />}
+    <meta property="og:title" content={paginaTitel} />
+    {omschrijving && <meta property="og:description" content={omschrijving} />}
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="nl_NL" />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+
+  <body>
+    <header class="kop">
+      <div class="kop__binnen">
+        <a class="kop__naam" href="/">{siteNaam}</a>
+        <nav>
+          {menu.map((item) => (
+            <a
+              href={item.href}
+              aria-current={actief(item.href) ? 'page' : undefined}
+            >
+              {item.naam}
+            </a>
+          ))}
+        </nav>
+      </div>
+    </header>
+
+    <main class="omhulsel">
+      <slot />
+    </main>
+
+    <footer class="voet">
+      <div class="omhulsel">
+        &copy; {new Date().getFullYear()} Jan Bakker &middot; Vursies in het Urker dialect
+      </div>
+    </footer>
+  </body>
+</html>

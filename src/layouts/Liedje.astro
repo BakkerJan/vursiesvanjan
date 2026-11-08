@@ -1,0 +1,85 @@
+---
+import Basis from './Basis.astro';
+
+const { frontmatter } = Astro.props;
+const { titel, herkomst, origineel, schrijver, melodie, youtube, pdf } = frontmatter;
+
+// Regel onder de titel: waar komt dit vursien vandaan?
+const labels = {
+  'eigen-werk': 'Eigen werk',
+  vertaling: 'Vertaling',
+  hertaling: 'Hertaling',
+};
+
+const soort = labels[herkomst] ?? herkomst;
+---
+
+<Basis titel={titel} omschrijving={`${titel} — liedtekst in het Urker dialect van Jan Bakker.`} pad="/">
+  <article>
+    <h1>{titel}</h1>
+
+    {(soort || origineel || schrijver || melodie) && (
+      <p class="herkomst">
+        {soort && <strong>{soort}</strong>}
+        {origineel && <> &middot; naar <em>{origineel}</em></>}
+        {schrijver && (origineel
+          ? <> van {schrijver}</>
+          : <> &middot; muziek van {schrijver}</>)}
+        {melodie && <> &middot; {melodie}</>}
+      </p>
+    )}
+
+    {(youtube || pdf) && (
+      <div class="media">
+        {youtube && (
+          <div class="video" id="opname">
+            <iframe
+              src={`https://www.youtube-nocookie.com/embed/${youtube}`}
+              title={`${titel} — opname op YouTube`}
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        )}
+
+        {pdf && (
+          <a class="knop knop--akkoorden" href={`/pdf/${pdf}`} target="_blank" rel="noopener">
+            <svg
+              class="knop__icoon"
+              viewBox="0 0 24 24"
+              width="19"
+              height="19"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" />
+              <path d="M14 3v5h5" />
+              <path d="M9 13h6" />
+              <path d="M9 17h4" />
+            </svg>
+            <span>Tekst met akkoorden</span>
+            <span class="knop__bij">PDF</span>
+          </a>
+        )}
+      </div>
+    )}
+
+    <div class="liedtekst">
+      <slot />
+    </div>
+
+    <div class="knoppen">
+      {youtube && (
+        <a class="knop" href={`https://www.youtube.com/watch?v=${youtube}`} target="_blank" rel="noopener">
+          Bekijk op YouTube
+        </a>
+      )}
+      <a class="knop" href="/">Alle vursies</a>
+    </div>
+  </article>
+</Basis>

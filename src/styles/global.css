@@ -1,0 +1,443 @@
+/* ---------------------------------------------------------------
+   Vursies van Jan - basisopmaak
+   Kleuren staan als variabelen bovenaan; pas ze hier aan en de
+   hele site verandert mee.
+---------------------------------------------------------------- */
+
+:root {
+  --papier:        #fdfcfa;
+  --papier-diep:   #f4f1ec;
+  --inkt:          #22201d;
+  --inkt-zacht:    #645e55;
+  --lijn:          #e2ddd4;
+  --accent:        #2f4a5a;
+  --accent-licht:  #4a6d80;
+
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --breedte: 40rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papier:       #1a1917;
+    --papier-diep:  #232120;
+    --inkt:         #e8e4dd;
+    --inkt-zacht:   #a39d93;
+    --lijn:         #38352f;
+    --accent:       #8fb4c7;
+    --accent-licht: #a8c7d6;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--papier);
+  color: var(--inkt);
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- Structuur ---------- */
+
+.omhulsel {
+  width: 100%;
+  max-width: var(--breedte);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.kop {
+  border-bottom: 1px solid var(--lijn);
+  margin-bottom: 3.25rem;
+}
+
+.kop__binnen {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding: 1.5rem 1.25rem;
+  width: 100%;
+  max-width: var(--breedte);
+  margin: 0 auto;
+}
+
+.kop__naam {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--inkt);
+  text-decoration: none;
+}
+
+.kop__naam:hover { color: var(--accent); }
+
+.kop nav {
+  display: flex;
+  gap: 1.25rem;
+  font-family: var(--sans);
+  font-size: 0.875rem;
+}
+
+.kop nav a {
+  color: var(--inkt-zacht);
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+}
+
+.kop nav a:hover,
+.kop nav a[aria-current="page"] {
+  color: var(--inkt);
+  border-bottom-color: var(--accent);
+}
+
+main.omhulsel {
+  padding-bottom: 6rem;
+}
+
+.voet {
+  border-top: 1px solid var(--lijn);
+  padding: 2rem 0 3rem;
+  font-family: var(--sans);
+  font-size: 0.8125rem;
+  color: var(--inkt-zacht);
+}
+
+/* ---------- Tekst ---------- */
+
+h1 {
+  font-size: 1.875rem;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-size: 1.1875rem;
+  font-weight: 600;
+  margin: 3rem 0 1rem;
+}
+
+/* Spring je via een knopje naar #tekst of #opname, dan niet strak tegen
+   de bovenrand uitkomen. */
+.liedtekst h2,
+.video {
+  scroll-margin-top: 1.5rem;
+}
+
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: var(--accent-licht); }
+
+.inleiding {
+  color: var(--inkt-zacht);
+  font-size: 1.125rem;
+}
+
+/* ---------- Liedjespagina ---------- */
+
+.herkomst {
+  font-family: var(--sans);
+  font-size: 0.8125rem;
+  color: var(--inkt-zacht);
+  margin: 0 0 2rem;
+}
+
+.herkomst strong { font-weight: 600; color: var(--inkt); }
+
+/* Video en de knop naar de akkoorden horen bij elkaar: samen één blok,
+   met de ruimte naar de liedtekst toe op het blok zelf. */
+.media {
+  margin: 0 0 3rem;
+}
+
+.video {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 0 0 1rem;
+  background: var(--papier-diep);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Alles VOOR de kop "## Tekst" is de toelichting. Die krijgt een getint
+   kader met een accentstreep, zodat hij losstaat van de liedtekst. */
+.liedtekst p {
+  margin: 0 0 1.75rem;
+  background: var(--papier-diep);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 4px 4px 0;
+  padding: 1rem 1.25rem;
+}
+
+/* Alles NA die kop is liedtekst: geen kader, en de regelafbrekingen blijven
+   staan precies zoals ze in het .md-bestand getypt zijn. */
+.liedtekst h2 ~ p {
+  background: none;
+  border-left: 0;
+  border-radius: 0;
+  padding: 0;
+  margin: 0 0 1.5rem;
+  white-space: pre-line;
+}
+
+.liedtekst em {
+  font-style: italic;
+  color: var(--inkt-zacht);
+}
+
+.knoppen {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 3.5rem 0 0;
+}
+
+.knop {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: var(--inkt);
+  background: var(--papier-diep);
+  border: 1px solid var(--lijn);
+  border-radius: 4px;
+  padding: 0.5rem 0.875rem;
+}
+
+.knop:hover { border-color: var(--accent); color: var(--accent); }
+
+.knop__icoon { flex: none; }
+
+/* De knop naar de akkoorden mag opvallen: dat is waar mensen voor komen
+   als ze het liedje willen spelen. */
+.knop--akkoorden {
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+  padding: 0.625rem 1rem;
+}
+
+.knop--akkoorden:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--papier);
+}
+
+.knop__bij {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  padding: 0.0625rem 0.3125rem;
+  opacity: 0.65;
+}
+
+/* ---------- Over-pagina ---------- */
+
+.portret {
+  display: block;
+  width: 100%;
+  max-width: 13.75rem;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 0 0 1.75rem;
+  background: var(--papier-diep);
+}
+
+/* ---------- Kaartjes op de voorpagina ---------- */
+
+.kaarten {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr));
+  gap: 0.75rem;
+}
+
+.kaart {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  min-height: 4.25rem;
+  padding: 0.9375rem 1.125rem;
+  background: var(--papier-diep);
+  border: 1px solid var(--lijn);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 5px 5px 0;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--inkt);
+  text-decoration: none;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.kaart:hover,
+.kaart:focus-visible {
+  background: color-mix(in srgb, var(--accent) 10%, var(--papier-diep));
+  border-color: color-mix(in srgb, var(--accent) 35%, transparent);
+  border-left-color: var(--accent);
+  color: var(--accent);
+}
+
+/* ---------- Liedjeslijst ---------- */
+
+.zoek {
+  position: relative;
+  margin: 0 0 1.5rem;
+}
+
+.zoek input {
+  width: 100%;
+  font-family: var(--sans);
+  font-size: 1rem;
+  color: var(--inkt);
+  background: var(--papier);
+  border: 1px solid var(--lijn);
+  border-radius: 4px;
+  padding: 0.625rem 0.875rem;
+}
+
+.zoek input::placeholder { color: var(--inkt-zacht); }
+.zoek input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 15%, transparent);
+}
+
+.lijst { list-style: none; margin: 0; padding: 0; }
+
+.lijst li { border-bottom: 1px solid var(--lijn); }
+
+/* Een regel in de lijst: links de titel, rechts de drie knopjes. Op een
+   smal scherm vallen de knopjes onder de titel. */
+.rij {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  padding: 1rem 0;
+}
+
+.rij__titel {
+  flex: 1 1 13rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.75rem;
+  text-decoration: none;
+  color: var(--inkt);
+}
+
+.rij__titel:hover .lijst__titel { color: var(--accent); }
+
+/* ---------- Knopjes per onderdeel ---------- */
+
+.merkjes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  flex: none;
+}
+
+.merk {
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  padding: 0.1875rem 0.5rem;
+  border: 1px solid;
+  border-radius: 3px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+/* Aanwezig: licht op in de accentkleur en is klikbaar. */
+.merk--aan {
+  border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 9%, transparent);
+  font-weight: 600;
+}
+
+.merk--aan:hover,
+.merk--aan:focus-visible {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--papier);
+}
+
+/* Nog niet aanwezig: gedempt en geen link. */
+.merk--uit {
+  border-color: var(--lijn);
+  color: var(--inkt-zacht);
+  background: transparent;
+  opacity: 0.6;
+  cursor: default;
+}
+
+.lijst__titel { font-size: 1.0625rem; font-weight: 600; }
+
+.lijst__bij {
+  font-family: var(--sans);
+  font-size: 0.8125rem;
+  color: var(--inkt-zacht);
+}
+
+.leeg {
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  color: var(--inkt-zacht);
+  padding: 1.5rem 0;
+}
+
+[hidden] { display: none !important; }
+
+/* ---------- Telefoon ---------- */
+
+@media (max-width: 30rem) {
+  h1 { font-size: 1.625rem; }
+  .kop__binnen { padding: 1.125rem 1.25rem; }
+  .kop { margin-bottom: 2.5rem; }
+  main.omhulsel { padding-bottom: 4rem; }
+}
+
+/* Label dat alleen voor schermlezers bestaat. */
+.visueel-verborgen {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
