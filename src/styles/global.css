@@ -101,6 +101,18 @@ body {
   border-bottom-color: var(--accent);
 }
 
+/* Snelkoppeling naar de afspeellijst met alle opnames. */
+.kop__opnames {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.kop__opnames-icoon {
+  flex: none;
+  display: block;
+}
+
 main.omhulsel {
   padding-bottom: 6rem;
 }
