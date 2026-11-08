@@ -2,7 +2,7 @@
 import Basis from './Basis.astro';
 
 const { frontmatter } = Astro.props;
-const { titel, herkomst, origineel, schrijver, melodie, youtube, pdf } = frontmatter;
+const { titel, herkomst, origineel, schrijver, melodie, youtube, youtubestart, pdf } = frontmatter;
 
 // Regel onder de titel: waar komt dit vursien vandaan?
 const labels = {
@@ -34,7 +34,7 @@ const soort = labels[herkomst] ?? herkomst;
         {youtube && (
           <div class="video" id="opname">
             <iframe
-              src={`https://www.youtube-nocookie.com/embed/${youtube}`}
+              src={`https://www.youtube-nocookie.com/embed/${youtube}${youtubestart ? `?start=${youtubestart}` : ""}`}
               title={`${titel} — opname op YouTube`}
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -75,7 +75,7 @@ const soort = labels[herkomst] ?? herkomst;
 
     <div class="knoppen">
       {youtube && (
-        <a class="knop" href={`https://www.youtube.com/watch?v=${youtube}`} target="_blank" rel="noopener">
+        <a class="knop" href={`https://www.youtube.com/watch?v=${youtube}${youtubestart ? `&t=${youtubestart}` : ""}`} target="_blank" rel="noopener">
           Bekijk op YouTube
         </a>
       )}
