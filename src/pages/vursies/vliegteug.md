@@ -5,7 +5,7 @@ herkomst: vertaling
 origineel: "Leaving on a jetplane"
 schrijver: 
 melodie: 
-youtube:
+youtube: "9nT_d7bXky8"
 pdf: "vliegteug.pdf"
 datum: 2026-11-07
 ---
