@@ -15,6 +15,8 @@ Korte toelichting bij het liedje. Mag ook weg.
 
 ## Tekst
 
+<!-- Zet elke zangregel op een eigen Markdown-regel; een witregel scheidt coupletten. -->
+
 Eerste regel van het eerste couplet
 Tweede regel van het eerste couplet
 

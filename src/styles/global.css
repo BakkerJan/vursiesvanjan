@@ -201,8 +201,8 @@ a:hover { color: var(--accent-licht); }
   padding: 1rem 1.25rem;
 }
 
-/* Alles NA die kop is liedtekst: geen kader, en de regelafbrekingen blijven
-   staan precies zoals ze in het .md-bestand getypt zijn. */
+/* Alles NA die kop is liedtekst: geen kader; regeleinden worden door Remark
+   omgezet naar <br> en blijven zo zichtbaar. */
 .liedtekst h2 ~ p {
   background: none;
   border-left: 0;

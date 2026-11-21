@@ -43,11 +43,12 @@ De YouTube-id is het deel na `v=` in de URL:
 Na de frontmatter: eerst een korte toelichting in gewone alinea's, daarna
 een kop `## Tekst` met de liedtekst eronder.
 
-- De kop `## Tekst` is functioneel, geen opsmuk: de stylesheet geeft alles
-  **na** die kop `white-space: pre-line` (zie `.liedtekst h2 ~ p` in
-  `global.css`). Daardoor blijven de regelafbrekingen van de liedtekst staan
-  zoals getypt, terwijl de toelichting erboven als gewone lopende tekst
-  doorloopt. Laat die kop dus staan en zet de liedtekst er altijd onder.
+- De kop `## Tekst` is functioneel, geen opsmuk: de Remark-plugin in
+  `astro.config.mjs` maakt van elke regeleinde **na** die kop een zichtbare
+  regeleinde. Daardoor loopt de toelichting erboven als gewone tekst door.
+  Zet elke zangregel op een eigen Markdown-regel; gebruik geen dubbele
+  spaties of `<br>`. Laat die kop dus staan en zet de liedtekst er altijd
+  onder.
 - Een **witregel** maakt een nieuw couplet.
 - Cursief, bijvoorbeeld voor `*Refrein:*`, met sterretjes.
 - Verzin nooit zelf liedteksten of toelichtingen. Zet `NOG IN TE VULLEN`
