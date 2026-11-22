@@ -12,18 +12,6 @@ const labels = {
 };
 
 const soort = labels[herkomst] ?? herkomst;
-
-// Parameters voor de ingesloten speler. cc_load_policy=0 is niet door
-// YouTube gedocumenteerd — alleen de waarde 1 (ondertiteling forceren) is
-// dat — maar hij kost niets en wordt breed gebruikt om de automatische
-// ondertiteling niet te tonen. De betrouwbare oplossing blijft het
-// weghalen van de automatische ondertitelsporen in YouTube Studio.
-const spelerUrl = (() => {
-  const params = new URLSearchParams();
-  if (youtubestart) params.set('start', String(youtubestart));
-  params.set('cc_load_policy', '0');
-  return `https://www.youtube-nocookie.com/embed/${youtube}?${params}`;
-})();
 ---
 
 <Basis titel={titel} omschrijving={`${titel} — liedtekst in het Urker dialect van Jan Bakker.`} pad="/">
@@ -46,7 +34,7 @@ const spelerUrl = (() => {
         {youtube && (
           <div class="video" id="opname">
             <iframe
-              src={spelerUrl}
+              src={`https://www.youtube-nocookie.com/embed/${youtube}${youtubestart ? `?start=${youtubestart}` : ""}`}
               title={`${titel} — opname op YouTube`}
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
