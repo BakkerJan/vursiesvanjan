@@ -10,8 +10,7 @@ pdf: "murgen-is-er-nog-een-dag.pdf"
 datum: 2026-11-08
 ---
 
-<!-- Toelichting: schrijf hier een paar regels over dit vursien — waar het
-     over gaat, hoe het ontstond. Tot die tijd blijft dit onzichtbaar. -->
+Geschreven tijdens Skrieverskamp op Zunnewende 2025.
 
 ## Tekst
 
