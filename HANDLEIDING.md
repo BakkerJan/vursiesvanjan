@@ -27,11 +27,12 @@ De opbouw van het bestand is altijd dezelfde, en die volgorde doet ertoe:
 ```
 
 Alles **boven** `## Tekst` loopt als gewone tekst door, zoals in een boek.
-Alles **onder** die kop houdt de regelafbrekingen die jij typt. Daarom moet
-de liedtekst er altijd onder staan, en de toelichting erboven. De YouTube-id is het stukje na `v=` in de
-link naar je video. Heb je nog geen opname of pdf? Laat dat veld dan gewoon
-leeg — die onderdelen verschijnen dan simpelweg niet op de pagina. Je kunt
-ze later bijwerken.
+Zet elke zangregel **onder** die kop op een eigen Markdown-regel. De site
+maakt daar zichtbare regeleinden van; dubbele spaties of `<br>` zijn niet
+nodig. Een witregel maakt een nieuw couplet. De toelichting hoort boven de
+kop. De YouTube-id is het stukje na `v=` in de link naar je video. Heb je
+nog geen opname of pdf? Laat dat veld dan gewoon leeg — die onderdelen
+verschijnen dan simpelweg niet op de pagina. Je kunt ze later bijwerken.
 
 Heb je een akkoordenblad? Zet de pdf in `public/pdf/` en vul de bestandsnaam
 in bij `pdf:`.
@@ -56,9 +57,9 @@ typt. Stoppen met `Ctrl+C`.
 
 ## Over de liedtekst
 
-Regels blijven staan zoals je ze typt — je hoeft niks te doen om een
-regelafbreking te krijgen. Een witregel maakt een nieuw couplet. Wil je een
-regel cursief, zoals `*Refrein:*`, zet er dan sterretjes om.
+Zet elke zangregel op een eigen Markdown-regel. Een witregel maakt een nieuw
+couplet. Wil je een regel cursief, zoals `*Refrein:*`, zet er dan sterretjes
+om.
 
 ## Waar staat wat
 

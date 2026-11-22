@@ -5,7 +5,7 @@ herkomst: eigen-werk
 origineel: 
 schrijver: 
 melodie: "Melodie van Bob Dylan (Don’t think twice, it’s allright)"
-youtube:
+youtube: "CtG6pmo4A1o"
 pdf: "rooie-ween.pdf"
 datum: 2026-11-07
 ---

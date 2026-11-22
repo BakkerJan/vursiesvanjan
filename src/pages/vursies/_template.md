@@ -6,6 +6,7 @@ origineel:                  # originele titel, alleen bij vertaling/hertaling
 schrijver:                  # oorspronkelijke schrijver, alleen bij vertaling/hertaling
 melodie: "Eigen melodie"    # of bijv. "Melodie van Johnny Cash"
 youtube:                    # alleen de video-id, bijv. ngdtyRYNIZs
+youtubestart:               # optioneel: starttijd in seconden, bijv. 5279
 pdf:                        # bestandsnaam in public/pdf/, bijv. niet-van-t-karkien.pdf
 datum: 2026-01-01
 ---
@@ -13,6 +14,8 @@ datum: 2026-01-01
 Korte toelichting bij het liedje. Mag ook weg.
 
 ## Tekst
+
+<!-- Zet elke zangregel op een eigen Markdown-regel; een witregel scheidt coupletten. -->
 
 Eerste regel van het eerste couplet
 Tweede regel van het eerste couplet

@@ -5,7 +5,8 @@ herkomst: eigen-werk
 origineel:
 schrijver:
 melodie: "Melodie van Greensleeves"
-youtube:
+youtube: "GQEm2-4YSF4"
+youtubestart: 5279
 pdf: "de-deuse-soldaot.pdf"
 datum: 2026-11-08
 ---
