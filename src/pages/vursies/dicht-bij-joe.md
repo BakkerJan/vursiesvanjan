@@ -10,7 +10,7 @@ pdf: "dicht-bij-joe.pdf"
 datum: 2026-11-07
 ---
 
-Liedje over het besef dat je beter af was bij je geliefde, in dat je niets
+Liedje over het besef dat je beter af was bij je geliefde, en dat je niets
 anders wil dan bij die persoon te zijn.
 
 ## Tekst
