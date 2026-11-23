@@ -8,7 +8,7 @@ pdf: "begeren.pdf"
 datum: 2026-11-07
 ---
 
-Dit liedje maakt pijnlijk duidelijk waarom hebzucht in jaloezie een plekje
+Dit liedje maakt pijnlijk duidelijk waarom hebzucht en jaloezie een plekje
 hebben gekregen in de 7 hoofdzonden.
 
 ## Tekst
