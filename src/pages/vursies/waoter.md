@@ -15,10 +15,10 @@ datum: 2026-11-22
 
 ## Tekst
 
-As een hert verlang ik waoter
+As een ert verlang ik waoter
 Maar verlies steeds van de drank
 In et wordt alien maar laoter
-Ik zit ier al wier vuuste lank
+Ik zit ier al wier vuulste lank
 
 *Refrein:*
 Want et kan zo lekker troosten
@@ -30,7 +30,7 @@ Eerst de speat en dan de speet
 Ik bin op zoek nor levend waoter
 Terwijl ik sturf van de dorst
 En ik dink maar niet an laoter
-Ut et m’n alles al ekost
+Et et m’n alles al ekost
 
 *Refrein:*
 Want et kan zo lekker troosten
@@ -41,7 +41,7 @@ Eerst de speat en dan de speet
 
 Ik wil wel lopen op het waoter
 Maar de wiend is mij te stark
-En ik bin al zovaar hene
+En ik bin al zovaar ene
 Dat ik daor niks maar van mark
 
 *Refrein:*

@@ -18,27 +18,27 @@ van het huis waar zoveel mooie herinneringen zijn opgebouwd.
 Oens eus mit mooie ramen
 een knap straotjen
 gien onkreud maar te zien.
-’t Mooiste huffien van de buurt
+’t Mooiste uffien van de buurt
 nog mooier dan die van nummer tien.
 Maar niks daorvan dringt to mij duur
 dit alles was van korte duur.
 
 Op een deenzerige zaoterdag sloeg de
-makelaor ut bord diep in de groend.
+makelaor et bord diep in de groend.
 Oens plaotjen was pas net compleet, mit
-een ussien, een boompien en een hoend.
+een ussien, een boompien in een oend.
 Et goeinste volop duur de buurt
-oe lange et dat nou eduurt?
+oe lange et dat nou eduurd?
 
 *Refrein:*
 Eus te koop
-Et leste wat oens nou nog bindt
+Et leste wat oens nou nog bint
 Oens eus te koop
-Et ende van een pril begin
+Et eande van een pril begin
 In as aardaags twie vreemden,
-onze vuurduur binnen gaon
-nor kamers vol herrinering; waor liefde,
-en passie et bestaon.
+oenze vuurduur binnen goon
+nor kamers vol errinering; waor liefde,
+in passie et bestoon.
 
 We dielden alles samen
 momenten van gelok, maar ok verdriet
@@ -53,9 +53,9 @@ Et leste wat oens nou nog bindt
 Oens eus te koop
 Et ende van een pril begin
 In as aardaags twie vreemden,
-onze vuurduur binnen gaon
+onze vuurduur binnen goon
 nor kamers vol herrinering; waor liefde,
-en passie et bestaon.
+in passie et bestoon.
 
 *Coda:*
-en passie et bestaon…
+in passie et bestoon…

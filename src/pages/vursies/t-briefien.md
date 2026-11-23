@@ -18,10 +18,10 @@ zee, en de stille hoop dat diegene ooit weer terug zal komen.
 Ik moet effen om een booskip
 ’k Lot de achterduur wel eupen
 Want as ie aansen teuskomt
-Ei kan zomaar binnen lopen
+Ij kan zomaar binnen lopen
 ’t Briefien op de tafel
 Legt stievast voor ’m klaor
-Want ik bidt nog om een wonder
+Want ik bid nog om een wonder
 Zelfs, ja zelfs nao zovuul jaor
 
 *Refrein:*
@@ -31,14 +31,14 @@ Bin je daor m’n bokker?
 maar de kost is bijna gaor
 D’r legt skoon goed op de trappe
 In je skeerskuim stot er naost
-Ik ew je zo emist,
+Ik eaw je zo emist,
 waor was je, waor was je al die teed?
 
 ’s Aves bij zunsongergang,
 staor ik over ’t waoter
 In lees ik alle namen
-Van die et leeven ewen elaoten
-Die op maondag is vertrokken
+Van die et leven eawen elaoten
+Die op moondag is vertrokken
 En nooit maar omme kwam
 De hoogste prees egieven
 Meen stoere, meen stoere visserman
@@ -50,17 +50,17 @@ Bin je daor m’n bokker?
 maar de kost is bijna gaor
 D’r legt skoon goed op de trappe
 In je skeerskuim stot er naost
-Ik ew je zo emist,
+Ik eaw je zo emist,
 waor was je, waor was je al die teed?
 
 Ik zal alteed op je wachten,
-alteed bleeven hopen
+alteed bleven hopen
 Op een wonder van jewelste
 Die gien mins ooit zou geloven
 Dat ik je antref in de kuuken
 Met ’t briefien in je aand
 En alles wier zal worren
-Zoas, zoas het vroeger was
+Zoas, zoas et vroeger was
 
 *Refrein:*
 Bin je daor m’n bokker?
@@ -69,5 +69,5 @@ Bin je daor m’n bokker?
 maar de kost is bijna gaor
 D’r legt skoon goed op de trappe
 In je skeerskuim stot er naost
-Ik ew je zo emist,
+Ik eaw je zo emist,
 Ik wil je, ik wil je nooit maar kweet.

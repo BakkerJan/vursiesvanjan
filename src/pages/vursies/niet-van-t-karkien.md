@@ -15,11 +15,11 @@ haast van papier lijken.
 ## Tekst
 
 Et was liefde op et eerste gezicht
-De eerste poes bij ’t volle-maonlicht
+De eerste poes bij ’t volle-moonlicht
 Daor in ’t ginkien in de torenstraot, zo laot
 
-Et loopt al bijna tuugen twaoluf uur
-De klokke slagt net, op et alleve uur
+Et loopt al bijna tugen twaolf uur
+De klokke slagt net, op et alve uur
 Bring ’r nor eus toe, achter op m’n fiets
 
 *Pre-refrein:*
@@ -30,7 +30,7 @@ Een dag die om problemen vragt
 
 *Refrein:*
 Want ze is niet van ’t karkien
-Volleges m’n vader vuulst te licht
+Volges m’n vader vuulst te licht
 Oenze liefde kint gien grinzen
 Toch is de karkmuur onbetwist
 
@@ -39,17 +39,17 @@ Samen karken, ok al kin ik je pas
 Al die verskillen, ik geloof et wel.
 
 Wij kunnen samen duur iene duur
-Mar lopen tuugen een dikke karrekmuur
-Waor is de liefde zonger hoop, geloof?
+Maar lopen tuugen een dikke karkmuur
+Waor is de liefde zonger oop, geloof?
 
 *Pre-refrein:*
 Dus we moeten samen varder
-Al is het elk oenze eagen weg
+Al is et elk oenze eagen weg
 Zie de briede, ik de smalle
-Zoas de domenei dat zegt
+Zoas de domenij dat zegt
 
 *Refrein (2x):*
 Want ze is niet van ’t karkien
-Volleges m’n vader vuulst te licht
+Volges m’n vader vuulst te licht
 Oenze liefde kint gien grinzen
 Toch is de karkmuur onbetwist

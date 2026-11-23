@@ -17,51 +17,51 @@ zoekt.
 ## Tekst
 
 Ik krieg een appien van m’n maotjen
-Ze skrief ik ew wat op m’n leef
+Ze skrief ik eaw wat op m’n leef
 Ze zeen we moeten praoten
 Ik moet je echt verlaoten
 Vor nou
 
 Ik wiet, ze houdt iel vuul van reazen
-Pak wat teed zurreg vor jezelf
-Ik doen een steppien trogge
+Pak wat teed zurg vor jezelf
+Ik doen een steppien terogge
 In gief je alle reumte
 Vaar weg
 
 *Refrein:*
-We draaien om enkanger eene
+We draaien om eenkanger eene
 Hopen dat et nou ’rs lukt
 Maar ik ben er al wel achter
-Woromme ’t amaar wier mislukt
-Miskien ewen wij al lange al evoenden
-Wor wai op zoek nor gaon
+Waoromme ’t amaar wier mislukt
+Misskien eawen wij al lange al evoenden
+Wor wij op zoek nor goon
 
-Ik ew m’n baord erof eskeuren
+Ik eaw m’n baord erof eskeuren
 Ze wil ’rs wieten oe dat voelt
-Ze kan niet mar zonger
-Mar ook niet maar mit m’n
+Ze kan niet maar zonger
+Maar ook niet maar mit m’n
 Wat raor
 
 *Refrein:*
-We draaien om enkanger eene
+We draaien om eenkanger eene
 Hopen dat et nou ’rs lukt
 Maar ik ben er al wel achter
-Woromme ’t amaar wier mislukt
-Miskien ewen wij al lange al evoenden
-Wor wai op zoek nor gaon
+Waoromme ’t amaar wier mislukt
+Misskien eawen wij al lange al evoenden
+Wor wij op zoek nor goon
 
-Miskien ewen wij al lange al evoenden
-Wor wai op zoek nor gaon
+Misskien eawen wij al lange al evoenden
+Wor wij op zoek nor goon
 
-Je ewen een plekkien in m’n arte
+Je eawen een plekkien in m’n arte
 Ik wiet dat is er ok bij joe
 Je wieten ik hou van je
-We moeten baien varder
+We moeten beien varder
 Lot goon
 
 Je wieten ik hou van je
-We goonen baien varder
+We goonen beien varder
 Lot goon
 
 Je wieten ik hou van je
-We moeten baien varder…
+We moeten beien varder…

@@ -19,8 +19,8 @@ Skink m’n nog een bietjen rooie ween in
 Want m’n glas is bijna leeg
 Skink me nog een bietjen rooie ween in
 Zodat ik nog wat langer bleef
-De aved is nog jonk en we binnen nog as nait
-Ik wil nog niet nor eus, staon bij geniene in et krijt
+De aved is nog jonk en we binnen nog as nijt
+Ik wil nog niet nor eus, stoon bij geniene in et krijt
 Et vuurtjen braand nog zuutjes, in de uren tikken vort
 We koemen ammaar teed te kort
 
@@ -30,17 +30,17 @@ Ja gief me nog een bietjen van dat rooie daor
 Zodat ik nog wat langer bleef
 We staoren in de vlammen, en ik kreup tuugen je an
 Moet nou echt nor eus toe, maar et komt er maar niet van
-Bleef liever effen klieven, ik lot je nog niet gaon
-Blief de teed mar stille staon
+Bleef liever effen klieven, ik lot je nog niet goon
+Blief de teed maar stille stoon
 
 Skink m’n nog een bietjen rooie ween in
 Want m’n glas is bijna leeg
 Skink me nog een bietjen rooie ween in
 Zodat ik nog wat langer bleef
-We tellen alle starren, in kieken nor de maon
-Lotten we pas stoppen as we de zunne op zien gaon
-Ik oor al voegels fleuten, dus dat duurt niet mar zo lank
-Ging de teed mar niet zo gank
+We tellen alle starren, in kieken nor de moon
+Lotten we pas stoppen as we de zunne op zien goon
+Ik oor al voegels fleuten, dus dat duurt niet maar zo lank
+Ging de teed maar niet zo gank
 
-Ik oor al voegels fleuten, dus dat duurt niet mar zo lank
-Ging de teed mar niet zo gank
+Ik oor al voegels fleuten, dus dat duurt niet maar zo lank
+Ging de teed maar niet zo gank

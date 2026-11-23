@@ -15,9 +15,9 @@ Geschreven tijdens Skrieverskamp op Zunnewende 2025.
 ## Tekst
 
 As de zunne onger got
-De dag is wier vorbai
+De dag is wier vorbij
 De skiemer langzaam binnenkomt
-Makt plekke vor de maon
+Makt plekke vor de moon
 
 De geuren van de aved
 Geluiden van de dag
@@ -26,16 +26,16 @@ Niks moet in alles mag
 
 *Refrein:*
 Murgen is er nog een dag
-Begin ik wier opnait
+Begin ik wier opnijt
 Begin ik wier van vuur of an
-Staon nargens in et krijt
+Stoon nargens in et krijt
 
 Een iele nije dag brikt an
-Ik staon wier ant begin
+Ik stoon wier ant begin
 In doen ik nog een roendjen mie
 Tot ik er niet maar bin
 
-Ik bin loove van et straaien
+Ik bin love van et strijen
 Om alles en om niks
 De iene gift een oordiel
 De anger wil gelik
@@ -47,11 +47,11 @@ Als de golven op de zie
 
 *Refrein:*
 Murgen is er nog een dag
-Begin ik wier opnait
+Begin ik wier opnijt
 Begin ik wier van vuur of an
-Staon nargens in et krijt
+Stoon nargens in et krijt
 
 Een iele nije dag brikt an
-Ik staon wier ant begin
+Ik stoon wier an et begin
 In doen ik nog een roendjen mie
 Tot ik er niet maar bin

@@ -27,7 +27,7 @@ De foto’s zeggen alles
 Ik eaw ze ommedraaid
 Ik kon er niet nor kieken
 Want de leegte dut zo zaar
-’k eaw joe nodig, mar wat bin je vaar
+’k eaw joe nodig, maar wat bin je vaar
 
 *Refrein:*
 Ik wil joe

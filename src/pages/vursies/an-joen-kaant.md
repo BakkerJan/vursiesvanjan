@@ -16,50 +16,50 @@ dicht bij het origineel gebleven, maar wel een eigen draai aan gegeven.
 ## Tekst
 
 As de donkergreeze dagen koemen
-In ze duuren langer dan verwacht
-Vlieg je vort vor je êgen spoeken
-Want vor vechten ew je niet de kracht
+In ze duren langer dan verwacht
+Vlieg je vort vor je eagen spoeken
+Want vor vechten eaw je niet de kracht
 
 Bin je wier eut evenwicht
-Rakt ut ênde mar niet in zicht
-Vertrouw dan maar op mai
+Rakt et eande maar niet in zicht
+Vertrouw dan maar op mij
 
 *Refrein:*
-Want ik staon naost je om je alteed te omarmen
+Want ik stoon naost je om je alteed te omarmen
 Ik bin achter je, dan kan ik je beskarmen
-As je bange binnen in ut donker, gief m’n dan je aand
-Zoek me niet te vaar, ik staon al aan joen kaant
+As je bange binnen in et donker, gief m’n dan je aand
+Zoek me niet te vaar, ik stoon al aan joen kaant
 
-As ut sturmt mit wiendkracht oenderd in je lichem, in je arte, in je oofd
-As je gevoel je wier urs et bedonderd
+As et sturmt mit wiendkracht oenderd in je lichem, in je arte, in je oofd
+As je gevoel je wier ers et bedonderd
 In je iele dinken is verdoofd
 
 Bin je bange in verdwaold
-Likt alles skêaf in achteraold
-Vertrouw dan maar op mai
+Likt alles skeaf in achteraold
+Vertrouw dan maar op mij
 
 *Refrein:*
-Want ik staon naost je om je alteed te omarmen
+Want ik stoon naost je om je alteed te omarmen
 Ik bin achter je, dan kan ik je beskarmen
-As je bange binnen in ut donker, gief m’n dan je aand
-Zoek me niet te vaar, ik staon al aan joen kaant
+As je bange binnen in et donker, gief m’n dan je aand
+Zoek me niet te vaar, ik stoon al aan joen kaant
 
-As ut onbekinde daor is
+As et onbekinde daor is
 In de iele warreld achter blift
 As je ziel niet maar verdwaold is
 In de teed niet langer an je klift
-Wiet dat’k op d’eutkiek staon
-Achter de starren in de maon
-Vertrouw dus maar op mai
+Wiet dat’k op d’eutkiek stoon
+Achter de starren in de moon
+Vertrouw dus maar op mij
 
-Want ik staon naost je om je alteed te omarmen
+Want ik stoon naost je om je alteed te omarmen
 Ik bin achter je, dan kan ik je beskarmen
 
 *Refrein:*
-Want ik staon naost je om je alteed te omarmen
+Want ik stoon naost je om je alteed te omarmen
 Ik bin achter je, dan kan ik je beskarmen
-As je bange binnen in ut donker, gief m’n dan je aand
-Zoek me niet te vaar, ik staon al aan joen kaant
+As je bange binnen in et donker, gief m’n dan je aand
+Zoek me niet te vaar, ik stoon al aan joen kaant
 
-Ik staon al aan joen kaant
-Ik staon al aan joen kaant
+Ik stoon al aan joen kaant
+Ik stoon al aan joen kaant

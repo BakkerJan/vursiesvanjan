@@ -26,29 +26,29 @@ Spuul ze maar voor mij
 Inkelt in alien vor mij
 
 Skeuf ’rs op m’n an
-In leg je hoofd mar tuugen meenen
+In leg je oofd maar tuugen meenen
 Al et wark is klaor
 
 Wat een mooie teed
 De skiemer valt al in de kamer
 Gouwen straolen duur de ramen
-Skenen dor vor joe,
+Skenen daor vor joe,
 aliendig vor joe
 
 *Refrein:*
-Oens eus, is een arreg arreg arreg mooi eus
+Oens eus, is een arg arg arg mooi eus
 Mit kippen in de teun
 Et leven liep soms skeun
-Mar alles is wier goed, in dat duur joe
+Maar alles is wier goed, in dat duur joe
 In oens…
 
 *La la la…*
 
 *Refrein:*
-Oens eus, is een arreg arreg arreg mooi eus
+Oens eus, is een arg arg arg mooi eus
 Mit kippen in de teun
 Et leven liep soms skeun
-Mar alles is wier goed, in dat duur joe
+Maar alles is wier goed, in dat duur joe
 
 Ik steek de kachel an
 Jie pakken glaozen eut de kast
