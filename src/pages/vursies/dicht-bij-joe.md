@@ -15,16 +15,16 @@ anders wil dan bij die persoon te zijn.
 
 ## Tekst
 
-Ik ew eslintert duur de straoten
+Ik eaw eslintert duur de straoten
 As de stienen konnen praoten
 Bin al dagen nachten wakker, vuulste lank
-In de barman blift mar skinken
+In de barman blift maar skinken
 Tot de leste glaozen klinken
 Dan besef ik dat et vuule beter was
 Dicht bij joe
 
 *Refrein:*
-Dicht bij joe, wil ik bleeven tot et eande van de teed
+Dicht bij joe, wil ik bleven tot et eande van de teed
 Dicht bij joe, wil ik wezen as ik lach in as ik kreet
 Tot ik oud bin, tot ik goon, wil ik niet bij joe vandoon
 Bleef bij mij, dan bleef ik, dicht bij joe
@@ -34,11 +34,11 @@ Duur m’n dromen nao te jagen
 Ik bin overal ewest, de warreld roend
 De oceoon over estuken
 Alle taolen al espruken
-’k Ew nargens kuunen veenen wat ik voel
+’k Eaw nargens kuunen venen wat ik voel
 Dicht bij joe
 
 *Refrein:*
-Dicht bij joe, wil ik bleeven tot et eande van de teed
+Dicht bij joe, wil ik bleven tot et eande van de teed
 Dicht bij joe, wil ik wezen as ik lach in as ik kreet
 Tot ik oud bin, tot ik goon, wil ik niet bij joe vandoon
 Bleef bij mij, dan bleef ik, dicht bij joe
