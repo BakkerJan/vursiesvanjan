@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/Liedje.astro
-titel: "allien maar joe"
+titel: "Allien maar joe"
 herkomst: hertaling
-origineel: 
+origineel: Only you
 schrijver: "Matthew Perryman Jones"
 melodie: 
 youtube: "wwqCUTGPIDY"
